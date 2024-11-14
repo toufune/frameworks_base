@@ -79,6 +79,8 @@ public final class CategoryKey {
     public static final String CATEGORY_PRIVACY_CONTROLS =
             "com.android.settings.category.ia.privacy_controls";
 
+    public static final String CATEGORY_WITAQUA =
+            "com.android.settings.category.ia.witaqua";
     public static final Map<String, String> KEY_COMPAT_MAP;
 
     static {
