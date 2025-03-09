@@ -572,7 +572,8 @@ public abstract class WMShellModule {
             LaunchAdjacentController launchAdjacentController,
             WindowDecorViewModel windowDecorViewModel,
             Optional<TaskChangeListener> taskChangeListener,
-            DesktopState desktopState) {
+            DesktopState desktopState,
+            @ShellMainThread Handler mainHandler) {
         return new FreeformTaskListener(
                 context,
                 shellInit,
@@ -583,7 +584,8 @@ public abstract class WMShellModule {
                 launchAdjacentController,
                 windowDecorViewModel,
                 taskChangeListener,
-                desktopState);
+                desktopState,
+                mainHandler);
     }
 
     @WMSingleton
