@@ -18,4 +18,7 @@
 
     <!-- Notification counter -->
     <color name="notification_number_text_color">#ff000000</color>
+
+    <!-- Color of background circle of keyguard button -->
+    <color name="keyguard_button_bg_color">#FFFFFFFF</color>
 </resources>
